@@ -33,11 +33,12 @@ def main(message):
     bot.send_message(message.chat.id, f"{welcome_message}.\n{sett}", reply_markup=select)
 contacts.row(telegram, discord, tiktok)
 contacts.add(back)
-projects.row(best_project, crator_account)
+projects.row(best_project, creator_account)
 projects.add(back)
 personal.add(back)
 @bot.callback_query_handler(func=lambda callback:True)
 def callback_message(callback):
+    bot.answer_callback_query(callback.id)
     if callback.data == 'personal_data':
         bot.delete_message(callback.message.chat.id, callback.message.message_id)
         #PASTE YOUR PERSONAL DATA YOU WANT
