@@ -24,6 +24,8 @@ A empty aboutme telegram bot template by Mxxy-dev
                      [⬅️ Back]
 
 
-##where can i find a "token"?
-
+## where can i find a "token"?
 you can get the token when you crate a bot in @BotFather
+
+## how to make the bot working?
+You must be conected to internet and host the code on a hosting or on your phone/pc to make the bot work.
