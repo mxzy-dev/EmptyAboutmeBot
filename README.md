@@ -35,10 +35,10 @@ You must be conected to internet and host the code on a hosting or on your phone
 pip install pyTelegramBotAPI
 
 ## Configuration
-1. Open main.py
-2. Insert your bot token
-3. Replace your information
-4. Replace links
+Open `main.py` and edit the values
+at the top of the file.
+
+You don't need to edit anything else.
 
 ## Run
 python main.py
