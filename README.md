@@ -3,7 +3,7 @@ A empty aboutme telegram bot template by Mxxy-dev
 
 
 ## 🗺 The bot's architecture
-'''
+
 
                      [ /start ]
                          │
